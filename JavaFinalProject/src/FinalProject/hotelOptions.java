@@ -3,7 +3,6 @@ package FinalProject;
 import java.util.Scanner;
 
 public class hotelOptions {
-	//Coded by Kenneth De Paz
 	
 	//Class Constructor
 	hotelOptions() {
