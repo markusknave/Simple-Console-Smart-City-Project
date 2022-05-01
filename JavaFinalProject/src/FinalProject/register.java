@@ -11,7 +11,7 @@ import java.nio.file.Paths;
 import java.util.Scanner;
 
 public class register {
-	//Coded by Archie Cabus & Roemart Dacillo
+
 	private static String Email, RegUser, RegPass1, RegAge, RegBirth, RegAddress, IndiChoose, RegYeal;
 	Scanner enter = new Scanner(System.in);
 	String filename = "e:\\JavaFinalProject\\acc.txt";
