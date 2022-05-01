@@ -3,7 +3,6 @@ package FinalProject;
 import java.util.Scanner;
 
 public class studentMenu {
-	//Coded by Janice Manacpo
 	
 	//Function called if Indichoose = Student
 	public static void choiceS() {
