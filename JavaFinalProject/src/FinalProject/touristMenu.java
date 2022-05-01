@@ -3,7 +3,6 @@
 import java.util.Scanner;
 
 public class touristMenu {
-	//Coded by Jashmer Benaso
 	
 	//Function called if Indichoose = Tourist
 	public static void choiceT() {
