@@ -9,7 +9,6 @@ import java.nio.file.Paths;
 import java.util.Scanner;
 
 public class login {
-	//Coded by Roemart Dacillo & Sean Pulma
 	
 	String filename = "e:\\JavaFinalProject\\acc.txt";
 	Scanner enter = new Scanner(System.in);
