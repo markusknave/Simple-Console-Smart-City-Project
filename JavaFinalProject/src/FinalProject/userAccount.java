@@ -1,11 +1,9 @@
 package FinalProject;
 
-	
 	import java.util.*;
 
 	public class userAccount {
-		//Coded by Roemart Dacillo & Sean Pulma
-		
+
 		public static String username, email;
 		private static String _temp = null;
 		
