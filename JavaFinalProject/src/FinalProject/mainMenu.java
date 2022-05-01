@@ -6,7 +6,6 @@ import java.io.*;
 
 
 public class mainMenu {
-	//Coded by Sean Pulma
 
 	static String filename = "e:\\JavaFinalProject\\acc.txt";
 	private static String _temp = null;
