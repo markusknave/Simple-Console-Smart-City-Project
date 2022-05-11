@@ -20,27 +20,10 @@ public class studentMenu {
 		System.out.println("\n 1) Leyte Normal University \n 2) University of The Phillipines Visayas Tacloban College "
 				+ "\n 3.) Eastern Visayas State UNiversity \n 4.)Asian Develpment Foundation College \n 5.) ACLC College Tacloban \n 6.) Log Out\n");
 	
-		int choice2 =input1.nextInt();  
-		System.out.println();
-		
-		if (choice2==1) {
-		
-		System.out.println(" Choose Your Course!!! ");
-		
-		System.out.println("1.)leyte Normal University "+""+"\nTuition: Bachelors 8.000,-12.000"+""+"\n Available Courses: BS in Information Technology");
-		System.out.println("2.)leyte Normal University "+""+"\nTuition: Bachelors 8.000,-12.000"+""+"\n Available Courses: BS in Biology");
-		System.out.println("3.)leyte Normal University "+""+"\nTuition: Bachelors 8.000,-12.000"+""+"\n Available Courses: Bachelor of of Elementary Education");
-		System.out.println("4.)leyte Normal University "+""+"\nTuition: Bachelors 8.000,-12.000"+""+"\n Available Courses: Bachelor of of Secondary Education");
-		System.out.println("5.)leyte Normal University "+""+"\nTuition: Bachelors 8.000,-12.000"+""+"\n Available Courses: BS in hotel and Restuarant Management");
-		System.out.println("6.)leyte Normal University "+""+"\nTuition: Bachelors 8.000,-12.000"+""+"\n Available Courses: AB in Political Science");
-		System.out.println("7.)leyte Normal University "+""+"\nTuition: Bachelors 8.000,-12.000"+""+"\n Available Courses: AB in English ");
-		System.out.println("8.)leyte Normal University "+""+"\nTuition: Bachelors 8.000,-12.000"+""+"\n Available Courses: AB in Communication");
-
-	
 		int choice3=input1.nextInt();
 		if(choice3==1) {
 			System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-			option=input1.next();
+			option=input1.next().toLowerCase();
 			if(option.equals(option1)){
 				System.out.println("\nHere Are Some Contact Information about this School\n\t  Located in:Paterno St, Downtown, Tacloban City\n\t Website: https://tac.upv.edu.ph\\n\\t Contact# (+63) 289818500");
 			}
@@ -54,7 +37,7 @@ public class studentMenu {
 	}
 		else if (choice3==2) {
 			System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-			option=input1.next();
+			option=input1.next().toLowerCase();
 			if(option.equals(option2)){
 				System.out.println("\t\t\tHere Are Some Contact Information about this School\n\t Located in: Paterno St, Downtown, Tacloban City\n\tContact#: (+63) 53832-3205 \n \nWebsite: https://www.lnu.edu.ph\n\t www.facebook.com/lnu.official");
 			
@@ -69,7 +52,7 @@ public class studentMenu {
 		}
 		else if (choice3==3) {
 			System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-			option=input1.next();
+			option=input1.next().toLowerCase();
 			if(option.equals(option1)){
 				System.out.println("\nHere Are Some Contact Information about this School\n\t Located in: Paterno St, Downtown, Tacloban City\n\t Contact#: (+63) 53832-3205 \n\t Website: https://www.lnu.edu.ph\n\t www.facebook.com/lnu.official");
 			
@@ -84,7 +67,7 @@ public class studentMenu {
 			}
 		else if (choice3==4) {
 			System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-			option=input1.next();
+			option=input1.next().toLowerCase();
 			if(option.equals(option1)){
 				System.out.println("\nHere Are Some Contact Information about this School\n\t Located in: Paterno St, Downtown, Tacloban City\n\t Contact#: (+63) 53832-3205 \n\t Website: https://www.lnu.edu.ph\n\t www.facebook.com/lnu.official");
 				
@@ -99,7 +82,7 @@ public class studentMenu {
 			}
 		else if (choice3==5) {
 			System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-			option=input1.next();
+			option=input1.next().toLowerCase();
 			if(option.equals(option1)){
 				System.out.println("\nHere Are Some Contact Information about this School\n\t Located in: Paterno St, Downtown, Tacloban City\n\tContact#: (+63) 53832-3205 \n\t Website: https://www.lnu.edu.ph\n\t www.facebook.com/lnu.official");
 				
@@ -113,7 +96,7 @@ public class studentMenu {
 	}}
 		else if (choice3==6) {
 			System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-			option=input1.next();
+			option=input1.next().toLowerCase();
 			if(option.equals(option1)){
 				System.out.println("\nHere Are Some Contact Information about this School\n\t Located in: Paterno St, Downtown, Tacloban City\n\tContact#: (+63) 53832-3205 \n\t Website: https://www.lnu.edu.ph\n\t www.facebook.com/lnu.official");
 			
@@ -128,7 +111,7 @@ public class studentMenu {
 	}}
 		else if (choice3==7) {
 			System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-			option=input1.next();
+			option=input1.next().toLowerCase();
 			if(option.equals(option1)){
 				System.out.println("\nHere Are Some Contact Information about this School\n\t Contact#: (+63) 53832-3205 \n\t Website: https://www.lnu.edu.ph\n\t www.facebook.com/lnu.official");
 								}
@@ -141,7 +124,7 @@ public class studentMenu {
 	}}
 		else if (choice3==8) {
 			System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-			option=input1.next();
+			option=input1.next().toLowerCase();
 			if(option.equals(option1)){
 				System.out.println("\nHere Are Some Contact Information about this School\n\tLocated in: Paterno St, Downtown, Tacloban City\n\t Contact#: (+63) 53832-3205 \n\t Website: https://www.lnu.edu.ph\n\t www.facebook.com/lnu.official");
 			
@@ -169,7 +152,7 @@ public class studentMenu {
 			int choice4=input1.nextInt();
 			if(choice4==1) {
 				System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-				option=input1.next();
+				option=input1.next().toLowerCase();
 				if(option.equals(option1)){
 					System.out.println("\nHere Are Some Contact Information about this School\n\t  Located in: Magsaysay Blvd, Downtown, Tacloban City, Leyte\n\t Website: https://tac.upv.edu.ph\n\t Contact# (+63) 289818500 ");					
 				}
@@ -183,7 +166,7 @@ public class studentMenu {
 			}
 			else if (choice4==2) {
 				System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-				option=input1.next();
+				option=input1.next().toLowerCase();
 				if(option.equals(option1)){
 					System.out.println("\nHere Are Some Contact Information about this School\n\t  Located in: Magsaysay Blvd, Downtown, Tacloban City, Leyte\n\t Website: https://tac.upv.edu.ph\n\t Contact# (+63) 289818500");
 					
@@ -197,7 +180,7 @@ public class studentMenu {
 			}
 			else if (choice4==2) {
 				System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-				option=input1.next();
+				option=input1.next().toLowerCase();
 				if(option.equals(option1)){
 					System.out.println("\nHere Are Some Contact Information about this School\n\t  Located in: Magsaysay Blvd, Downtown, Tacloban City, Leyte\n\t Website: https://tac.upv.edu.ph\\n\\t Contact# (+63) 289818500");
 					
@@ -211,7 +194,7 @@ public class studentMenu {
 				}
 					else if (choice4==3) {
 						System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-						option=input1.next();
+						option=input1.next().toLowerCase();
 						if(option.equals(option1)){
 							System.out.println("\nHere Are Some Contact Information about this School\n\t  Located in: Magsaysay Blvd, Downtown, Tacloban City, Leyte\n\t Website: https://tac.upv.edu.ph\n\t Contact# (+63) 289818500");
 							
@@ -225,7 +208,7 @@ public class studentMenu {
 					}
 					else if (choice4==4) {
 						System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-						option=input1.next();
+						option=input1.next().toLowerCase();
 						if(option.equals(option1)){
 							System.out.println("\nHere Are Some Contact Information about this School\n\t  Located in: Magsaysay Blvd, Downtown, Tacloban City, Leyte\n\t Website: https://tac.upv.edu.ph\n\t Contact# (+63) 289818500");
 							
@@ -239,7 +222,7 @@ public class studentMenu {
 					}
 					else if (choice4==5) {
 						System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-						option=input1.next();
+						option=input1.next().toLowerCase();
 						if(option.equals(option1)){
 							System.out.println("\nHere Are Some Contact Information about this School\n\t  Located in: Magsaysay Blvd, Downtown, Tacloban City, Leyte\n\t Website: https://tac.upv.edu.ph\n\t Contact# (+63) 289818500");
 							
@@ -254,7 +237,7 @@ public class studentMenu {
 					}
 					else if (choice4==6) {
 						System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-						option=input1.next();
+						option=input1.next().toLowerCase();
 						if(option.equals(option1)){
 							System.out.println("\nHere Are Some Contact Information about this School\n\t  Located in: Magsaysay Blvd, Downtown, Tacloban City, Leyte\n\t Website: https://tac.upv.edu.ph\n\t Contact# (+63) 289818500");
 							
@@ -269,7 +252,7 @@ public class studentMenu {
 					}
 					else if (choice4==7) {
 						System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-						option=input1.next();
+						option=input1.next().toLowerCase();
 						if(option.equals(option1)){
 							System.out.println("\nHere Are Some Contact Information about this School\n\t  Located in: Magsaysay Blvd, Downtown, Tacloban City, Leyte\n\t Website: https://tac.upv.edu.ph\n\t Contact# (+63) 289818500");
 							
@@ -284,7 +267,7 @@ public class studentMenu {
 					}
 					else if (choice4==8) {
 						System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-						option=input1.next();
+						option=input1.next().toLowerCase();
 						if(option.equals(option1)){
 							System.out.println("\nHere Are Some Contact Information about this School\n\t  Located in: Magsaysay Blvd, Downtown, Tacloban City, Leyte\n\t Website: https://tac.upv.edu.ph\n\t Contact# (+63) 289818500");
 							
@@ -312,7 +295,7 @@ public class studentMenu {
 					int choice5=input1.nextInt();
 					if(choice5==1) {
 						System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-						option=input1.next();
+						option=input1.next().toLowerCase();
 						if(option.equals(option1)){
 							System.out.println("\nHere Are Some Contact Information about this School\n\t Located in: Salazar St, Downtown, Tacloban\n\t Website: https://www.evsu.edu.ph\n\t Contact# (053) 3211084 ");					
 						}
@@ -326,7 +309,7 @@ public class studentMenu {
 				}
 					if(choice5==2) {
 						System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-						option=input1.next();
+						option=input1.next().toLowerCase();
 						if(option.equals(option1)){
 							System.out.println("\nHere Are Some Contact Information about this School\n\t   Located in: Salazar St, Downtown, Tacloban\n\t Website: https://www.evsu.edu.ph\n\t Contact# (053) 3211084 ");					
 						}
@@ -340,7 +323,7 @@ public class studentMenu {
 				}
 					if(choice5==3) {
 						System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-						option=input1.next();
+						option=input1.next().toLowerCase();
 						if(option.equals(option1)){
 							System.out.println("\nHere Are Some Contact Information about this School\n\t  Located in: Salazar St, Downtown, Tacloban\n\t Website: https://www.evsu.edu.ph\n\t Contact# (053) 3211084 ");					
 						}
@@ -354,7 +337,7 @@ public class studentMenu {
 				}
 					if(choice5==4) {
 						System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-						option=input1.next();
+						option=input1.next().toLowerCase();
 						if(option.equals(option1)){
 							System.out.println("\nHere Are Some Contact Information about this School\n\t   Located in: Salazar St, Downtown, Tacloban\n\t Website: https://www.evsu.edu.ph\n\t Contact# (053) 3211084 ");					
 						}
@@ -368,7 +351,7 @@ public class studentMenu {
 				}
 					if(choice5==5) {
 						System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-						option=input1.next();
+						option=input1.next().toLowerCase();
 						if(option.equals(option1)){
 							System.out.println("\nHere Are Some Contact Information about this School\n\t  Located in: Salazar St, Downtown, Tacloban\n\t Website: https://www.evsu.edu.ph\n\t Contact# (053) 3211084 ");					
 						}
@@ -382,7 +365,7 @@ public class studentMenu {
 				}
 					if(choice5==6) {
 						System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-						option=input1.next();
+						option=input1.next().toLowerCase();
 						if(option.equals(option1)){
 							System.out.println("\nHere Are Some Contact Information about this School\n\t  Located in: Salazar St, Downtown, Tacloban\n\t Website: https://www.evsu.edu.ph\n\t Contact# (053) 3211084 ");					
 						}
@@ -396,7 +379,7 @@ public class studentMenu {
 				}
 					if(choice5==7) {
 						System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-						option=input1.next();
+						option=input1.next().toLowerCase();
 						if(option.equals(option1)){
 							System.out.println("\nHere Are Some Contact Information about this School\n\t Located in: Salazar St, Downtown, Tacloban\n\t Website: https://www.evsu.edu.ph\n\t Contact# (053) 3211084");					
 						}
@@ -410,7 +393,7 @@ public class studentMenu {
 				}
 					if(choice5==8) {
 						System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-						option=input1.next();
+						option=input1.next().toLowerCase();
 						if(option.equals(option1)){
 							System.out.println("\nHere Are Some Contact Information about this School\n\t Located in: Salazar St, Downtown, Tacloban\n\t Website: https://www.evsu.edu.ph\n\t Contact# (053) 3211084 ");					
 						}
@@ -437,7 +420,7 @@ public class studentMenu {
 						int choice6=input1.nextInt();
 						if(choice6==1) {
 							System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-							option=input1.next();
+							option=input1.next().toLowerCase();
 							if(option.equals(option1)){
 								System.out.println("\nHere Are Some Contact Information about this School\n\t Located in: BLISS Sagkahan, Tacloban City, Leyte\n\t Website: adfcollege.net\n\t Contact# (053) 3257654 ");					
 							}
@@ -451,7 +434,7 @@ public class studentMenu {
 					}
 						if(choice6==2) {
 							System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-							option=input1.next();
+							option=input1.next().toLowerCase();
 							if(option.equals(option1)){
 								System.out.println("\nHere Are Some Contact Information about this School\n\t Located in: BLISS Sagkahan, Tacloban City, Leyte\n\t Website: adfcollege.net\n\t Contact# (053) 3257654 ");					
 							}
@@ -465,7 +448,7 @@ public class studentMenu {
 					}
 						if(choice6==3) {
 							System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-							option=input1.next();
+							option=input1.next().toLowerCase();
 							if(option.equals(option1)){
 								System.out.println("\nHere Are Some Contact Information about this School\n\t Located in: BLISS Sagkahan, Tacloban City, Leyte\n\t Website: adfcollege.net\n\t Contact# (053) 3257654 ");					
 							}
@@ -479,7 +462,7 @@ public class studentMenu {
 					}
 						if(choice6==4) {
 							System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-							option=input1.next();
+							option=input1.next().toLowerCase();
 							if(option.equals(option1)){
 								System.out.println("\nHere Are Some Contact Information about this School\n\t Located in: BLISS Sagkahan, Tacloban City, Leyte\n\t Website: adfcollege.net\n\t Contact# (053) 3257654 ");					
 							}
@@ -493,7 +476,7 @@ public class studentMenu {
 					}
 						if(choice6==5) {
 							System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-							option=input1.next();
+							option=input1.next().toLowerCase();
 							if(option.equals(option1)){
 								System.out.println("\nHere Are Some Contact Information about this School\n\t Located in: BLISS Sagkahan, Tacloban City, Leyte\n\t Website: adfcollege.net\n\t Contact# (053) 3257654 ");					
 							}
@@ -507,7 +490,7 @@ public class studentMenu {
 					}
 						if(choice6==6) {
 							System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-							option=input1.next();
+							option=input1.next().toLowerCase();
 							if(option.equals(option1)){
 								System.out.println("\nHere Are Some Contact Information about this School\n\t Located in: BLISS Sagkahan, Tacloban City, Leyte\n\t Website: adfcollege.net\n\t Contact# (053) 3257654 ");					
 							}
@@ -521,7 +504,7 @@ public class studentMenu {
 					}
 						if(choice6==7) {
 							System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-							option=input1.next();
+							option=input1.next().toLowerCase();
 							if(option.equals(option1)){
 								System.out.println("\nHere Are Some Contact Information about this School\n\t Located in: BLISS Sagkahan, Tacloban City, Leyte\n\t Website: adfcollege.net\n\t Contact# (053) 3257654 ");					
 							}
@@ -535,7 +518,7 @@ public class studentMenu {
 					}
 						if(choice6==8) {
 							System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-							option=input1.next();
+							option=input1.next().toLowerCase();
 							if(option.equals(option1)){
 								System.out.println("\nHere Are Some Contact Information about this School\n\t Located in: BLISS Sagkahan, Tacloban City, Leyte\n\t Website: adfcollege.net\n\t Contact# (053) 3257654 ");					
 							}
@@ -562,7 +545,7 @@ public class studentMenu {
 						int choice7=input1.nextInt();
 						if(choice7==1) {
 							System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-							option=input1.next();
+							option=input1.next().toLowerCase();
 							if(option.equals(option1)){
 								System.out.println("\nHere Are Some Contact Information about this School\n\t Located in:M.H. Del PIlar St.Downtown, Tacloban City\n\t Website: https://www.aclc.edu.ph\n\t Contact# (053) 3211888321 ");					
 							}
@@ -576,7 +559,7 @@ public class studentMenu {
 					}
 						if(choice7==2) {
 							System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-							option=input1.next();
+							option=input1.next().toLowerCase();
 							if(option.equals(option1)){
 								System.out.println("\nHere Are Some Contact Information about this School\n\t Located in:M.H. Del PIlar St.Downtown, Tacloban City\n\t Website: https://www.aclc.edu.ph\n\t Contact# (053) 3211888321 ");					
 							}
@@ -590,7 +573,7 @@ public class studentMenu {
 					}
 						if(choice7==3) {
 							System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-							option=input1.next();
+							option=input1.next().toLowerCase();
 							if(option.equals(option1)){
 								System.out.println("\nHere Are Some Contact Information about this School\n\tLocated in:M.H. Del PIlar St.Downtown, Tacloban City\n\t Website: https://www.aclc.edu.ph\n\t Contact# (053) 3211888321 ");					
 							}
@@ -604,7 +587,7 @@ public class studentMenu {
 					}
 						if(choice7==4) {
 							System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-							option=input1.next();
+							option=input1.next().toLowerCase();
 							if(option.equals(option1)){
 								System.out.println("\nHere Are Some Contact Information about this School\n\t Located in:M.H. Del PIlar St.Downtown, Tacloban City\nt Website: https://www.aclc.edu.ph\n\t Contact# (053) 3211888321 ");					
 							}
@@ -618,7 +601,7 @@ public class studentMenu {
 					}
 						if(choice7==5) {
 							System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-							option=input1.next();
+							option=input1.next().toLowerCase();
 							if(option.equals(option1)){
 								System.out.println("\nHere Are Some Contact Information about this School\n\t Located in:M.H. Del PIlar St.Downtown, Tacloban City\n\t Website: https://www.aclc.edu.ph\n\t Contact# (053) 3211888321 ");					
 							}
@@ -632,7 +615,7 @@ public class studentMenu {
 					}
 						if(choice7==6) {
 							System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-							option=input1.next();
+							option=input1.next().toLowerCase();
 							if(option.equals(option1)){
 								System.out.println("\nHere Are Some Contact Information about this School\n\t Located in:M.H. Del PIlar St.Downtown, Tacloban City\n\t Website: https://www.aclc.edu.ph\n\t Contact# (053) 3211888321 ");					
 							}
@@ -646,7 +629,7 @@ public class studentMenu {
 					}
 						if(choice7==7) {
 							System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-							option=input1.next();
+							option=input1.next().toLowerCase();
 							if(option.equals(option1)){
 								System.out.println("\nHere Are Some Contact Information about this School\n\t Located in:M.H. Del PIlar St.Downtown, Tacloban City\n\t Website: https://www.aclc.edu.ph\n\t Contact# (053) 3211888321 ");					
 							}
@@ -660,7 +643,7 @@ public class studentMenu {
 					}
 						if(choice7==8) {
 							System.out.println("\nDo you wish to enroll in this Course? Yes or No");
-							option=input1.next();
+							option=input1.next().toLowerCase();
 							if(option.equals(option1)){
 								System.out.println("\nHere Are Some Contact Information about this School\n\t Located in:M.H. Del PIlar St.Downtown, Tacloban City\n\t Website: https://www.aclc.edu.ph\n\t Contact# (053) 3211888321 ");					
 							}
