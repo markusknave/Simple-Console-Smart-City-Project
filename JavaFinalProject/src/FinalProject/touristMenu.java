@@ -24,14 +24,15 @@ public class touristMenu {
 		//Hotel Choices
 		if (choice == 1) {
 			
-			System.out.println();
+			System.out.println("\nChoose a Hotel: \n 1.) Tacloban Plaza Hotel \n 2.) Hotel XYZ \n 3.) Basic Rooms Budget Hotel Tacloban "
+					+ "\n 4.) Hotel Estrella \n 5.) Ironwood Hotel ");
 			int hotel = input.nextInt();
 			
 			
 			if (hotel == 1) {
 				System.out.println("\nTacloban Plaza Hotel "); 
 				System.out.println("\nDo you want to check-in to this Hotel? Yes or No");
-				option=input.next();
+				option=input.next().toLowerCase();
 				if(option.equals(option1)){
 				System.out.println("\nLocation: Justice Romualdez St., 6500 Tacloban City, Philippines \nContact Number: 0917-593-4429 \n Website: http://www.taclobanplazahotel.com.ph/");
 				new hotelOptions();
@@ -48,7 +49,7 @@ public class touristMenu {
 			} if (hotel == 2) {
 				System.out.println("\nHotel XYZ ");
 				System.out.println("\nDo you want to check-in to this Hotel? Yes or No");
-				option=input.next();
+				option=input.next().toLowerCase();
 				if(option.equals(option1)){
 			    System.out.println("\nLocation: P. Zamora St., Tacloban City, Philippines \nContact Number: +639177738008 \nFacebook Link: https://www.facebook.com/hotelxyz.tacloban/");
 			    new hotelOptions();
@@ -63,7 +64,7 @@ public class touristMenu {
 			} if (hotel == 3) {
 				System.out.println("\nBasic Rooms Budget Hotel Tacloban ");
 				System.out.println("\nDo you want to check-in to this Hotel? Yes or No");
-				option=input.next();
+				option=input.next().toLowerCase();
 				if(option.equals(option1)){
 			    System.out.println("\nLocation: Real St. Sagkahan, Tacloban City, Leyte, Philippines \nContact Number: 09153063283/09477982533 \nFacebook Link: https://www.facebook.com/BudgetHotelTacloban/");
 			    new hotelOptions();
@@ -79,7 +80,7 @@ public class touristMenu {
 			}if (hotel == 4) {
 				System.out.println("\nHotel Estrella ");
 				System.out.println("\nDo you want to check-in to this Hotel? Yes or No");
-				option=input.next();
+				option=input.next().toLowerCase();
 				if(option.equals(option1)){
 			    System.out.println("\nLocation: Cor. Real St. and Independencia St., Tacloban City, Philippines \nContact Number: 0995 274 6269 \nWebsite: hotelestrellatacloban.com");
 			    new hotelOptions();
@@ -95,7 +96,7 @@ public class touristMenu {
 			} if (hotel == 5) {
 				System.out.println("\nIronwood Hotel ");
 				System.out.println("\nDo you want to check-in to this Hotel? Yes or No");
-				option=input.next();
+				option=input.next().toLowerCase();
 				if(option.equals(option1)){
 			    System.out.println("\nLocation: Cor. P. Burgos and Juan Luna St., 6500 Tacloban City, Philippines \nContact Number: 0998 857 1857 \nWebsite: http://ironwoodhotel.com/");
 			    new hotelOptions();
@@ -120,7 +121,7 @@ public class touristMenu {
 	if (restuarant == 1) {
 		System.out.println("\nOcho Seafood and Grill "); 
 		System.out.println("\nDo you want to visit this Restuarant? Yes or No");
-		option=input.next();
+		option=input.next().toLowerCase();
 		if(option.equals(option1)){
 		System.out.println("\nAddress: Senator Enage St, Downtown, Tacloban City, 6500 Leyte");
 		}
@@ -134,7 +135,7 @@ public class touristMenu {
 		if (restuarant == 2) {
 			System.out.println("\nFahrenheit Food Center"); 
 			System.out.println("\nDo you want to visit this Restuarant? Yes or No");
-			option=input.next();
+			option=input.next().toLowerCase();
 			if(option.equals(option1)){
 			System.out.println("\nAddress: Del Pilar St., Downtown, Tacloban City, 6500 Leyte");
 			}
@@ -148,7 +149,7 @@ public class touristMenu {
 			if (restuarant == 3) {
 				System.out.println("\nPedro Modern Filipino Restaurantl "); 
 				System.out.println("\nDo you want to visit this Restuarant? Yes or No");
-				option=input.next();
+				option=input.next().toLowerCase();
 				if(option.equals(option1)){
 				System.out.println("\nAddress: Lot 1243-e-3-b Brgy. 83-A Burayan, San Jose, Tacloban City, 6500 Leyte");
 				}
@@ -162,7 +163,7 @@ public class touristMenu {
 				if (restuarant == 4) {
 					System.out.println("\nFiregrass Tavern "); 
 					System.out.println("\nDo you want to visit this Restuarant? Yes or No");
-					option=input.next();
+					option=input.next().toLowerCase();
 					if(option.equals(option1)){
 					System.out.println("\nAddress: 203 Paterno St, Downtown, Tacloban City, Leyte");
 					}
@@ -176,7 +177,7 @@ public class touristMenu {
 				if (restuarant == 5) {
 					System.out.println("\nGerry's Grill "); 
 					System.out.println("\nDo you want to visit this Restuarant? Yes or No");
-					option=input.next();
+					option=input.next().toLowerCase();
 					if(option.equals(option1)){
 					System.out.println("\nAddress: Ground Floor, Robinsons Place, 77 Tacloban - Baybay S Rd, Barangay, Marasbaras, Tacloban City, 6500 Leyte");
 					}
@@ -189,7 +190,7 @@ public class touristMenu {
 					if (restuarant == 6) {
 						System.out.println("\nTIMO ROMANO LECHON "); 
 						System.out.println("\nDo you want to visit this Restuarant? Yes or No");
-						option=input.next();
+						option=input.next().toLowerCase();
 						if(option.equals(option1)){
 						System.out.println("\nAddress: 647 Real St, Tacloban City, 6500 Leyte ");
 						}
